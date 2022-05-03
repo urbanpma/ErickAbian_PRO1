@@ -1,0 +1,8 @@
+<resources>
+    <string-array name="estadoEmpleo">
+        <item>ELIGE UNA OPCIÓN:</item>
+        <item>DESOCUPADO</item>
+        <item>EMPLEADO</item>
+        <item>INDEPENDIENTE</item>
+    </string-array>
+</resources>

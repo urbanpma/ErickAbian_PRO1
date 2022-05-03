@@ -1,0 +1,13 @@
+<resources>
+    <string-array name="sedes">
+        <item>ELIGE UNA SEDE:</item>
+        <item>AZUERO</item>
+        <item>BOCAS DEL TORO</item>
+        <item>COCLÉ</item>
+        <item>COLÓN</item>
+        <item>PANAMÁ</item>
+        <item>CHIRIQUÍ</item>
+        <item>CHORRERA</item>
+        <item>VERAGUAS</item>
+    </string-array>
+</resources>
