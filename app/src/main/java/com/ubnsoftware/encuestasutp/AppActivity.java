@@ -4,8 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+
+import java.io.Console;
 
 public class AppActivity extends AppCompatActivity {
 
@@ -22,15 +25,19 @@ public class AppActivity extends AppCompatActivity {
         btnEncuesta.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent iEncuesta = new Intent(AppActivity.this, EncuestaActivity.class);
-                startActivity(iEncuesta);
+                try {
+                    Intent iEncuesta = new Intent(AppActivity.this, EncuestaActivity.class);
+                    startActivity(iEncuesta);
+                }catch (Exception e){
+                    Log.e("error", "Error al cambiar activity");
+                }
             }
         });
 
         btnSalir.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                finish();
+                    finish();
             }
         });
     }
