@@ -7,4 +7,7 @@
     <color name="VerdeClaro">#13d8a3</color>
     <color name="Rojo">#CE0000</color>
     <color name="colorPrimary">#CE0000</color>
+    <color name="colorPrimaryDark">#CE0000</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="colorNegro">#000000</color>
 </resources>

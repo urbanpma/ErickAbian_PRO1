@@ -1,17 +1,10 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <!-- Base application theme. -->
-    <style name="Theme.EncuestasUTP" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/VerdeOscuro</item>
-        <item name="colorPrimaryVariant">@color/VerdeOscuro</item>
-        <item name="colorOnPrimary">@color/white</item>
-        <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/VerdeClaro</item>
-        <item name="colorSecondaryVariant">@color/VerdeClaro</item>
-        <item name="colorOnSecondary">@color/white</item>
-        <!-- Status bar color. -->
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/VerdeOscuro</item>
+        <item name="colorPrimaryDark">@color/VerdeOscuro</item>
+        <item name="colorAccent">@color/VerdeClaro</item>
     </style>
 
     <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
@@ -21,4 +14,21 @@
         <item name="colorAccent">@color/VerdeClaro</item>
         <item name="android:windowBackground">@drawable/splash_activity_backgroud</item>
     </style>
+
+    <style name="RedProgressbar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/VerdeOscuro</item>
+        <item name="colorPrimaryDark">@color/VerdeOscuro</item>
+        <item name="colorAccent">@color/VerdeOscuro</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
 </resources>
