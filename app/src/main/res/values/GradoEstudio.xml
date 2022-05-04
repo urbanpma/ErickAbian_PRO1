@@ -1,0 +1,10 @@
+<resources>
+    <string-array name="gradoEstudido">
+        <item>ELIGE UNA OPCIÓN:</item>
+        <item>TÉCNICO</item>
+        <item>LICENCIATURA</item>
+        <item>POSTGRADO</item>
+        <item>MAESTRÍA</item>
+        <item>DOCTORADO</item>
+    </string-array>
+</resources>
